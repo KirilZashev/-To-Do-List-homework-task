@@ -1,0 +1,109 @@
+
+html {
+    font-size: 19px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: lightblue;
+
+}
+
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 25px;
+    padding-bottom: 40px;
+    
+}
+label{
+    font-size: 1.15rem;
+    width: 150px;
+    border-bottom: 1px solid grey;
+    margin-left: 40px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+input[type = checkbox]:checked + label{
+    text-decoration: line-through;
+    transition: ease-in 2s;
+}
+
+input[type=checkbox] {
+   cursor: pointer;
+   
+}
+
+#delete {
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 1rem;
+    align-self: flex-start;
+    margin-left: 8px;
+}       
+
+#delete:hover {
+    cursor: pointer;
+}
+
+#mydiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do-body {
+    align-self: flex-start;
+    margin-left: 95px;
+}
+
+#submit {
+    background-color: transparent;
+    border-radius: 25px;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 1.15rem;
+}
+.to-do-list {
+    border: 1px solid black;
+    width: 500px;
+
+}
+#add {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    height: 1.15rem;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+#submit:hover{
+    cursor: pointer;
+}
+.remove{
+    border-radius: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    float: right;
+}
+.remove:hover{
+    cursor: pointer;
+}
+.to-do-body div{
+    margin: 15px 0px;
+    width: 320px;
+}
+#test{
+margin: 0;
+}
